@@ -50,13 +50,13 @@ function Pomodoro() {
 
   const increaseFocusByFiveMinutes = () => {
     if (focusDuration < 60) {
-      setFocusDuration(focusDuration + 5);
+      setFocusDuration(focusDuration => focusDuration + 5);
     }
   };
 
   const decreaseFocusByFiveMinutes = () => {
     if (focusDuration > 5) {
-      setFocusDuration(focusDuration - 5);
+      setFocusDuration(focusDuration => focusDuration - 5);
     }
   };
 
@@ -64,13 +64,13 @@ function Pomodoro() {
 
   const increaseBreakByOneMinute = () => {
     if (breakDuration < 15) {
-      setBreakDuration(breakDuration + 1);
+      setBreakDuration(breakDuration => breakDuration + 1);
     }
   };
 
   const decreaseBreakByOneMinute = () => {
     if (breakDuration > 1) {
-      setBreakDuration(breakDuration - 1);
+      setBreakDuration(breakDuration => breakDuration - 1);
     }
   };
 
