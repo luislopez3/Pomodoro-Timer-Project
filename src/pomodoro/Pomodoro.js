@@ -113,7 +113,7 @@ function Pomodoro() {
   function progressBarIncrease() {
     if (!session) {
       return;
-    }
+   }
     if (session.label === "Focusing") {
       return (1 - session.timeRemaining / (focusDuration * 60)) * 100;
     } else {
