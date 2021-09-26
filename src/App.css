@@ -8,16 +8,18 @@
 @media all and (max-width: 768px) {
   h1 {
     font-size: 30px;
-    padding: 0px;
+    padding: 5px;
   }
 
   h2 {
-    font-size: 20px;
-    padding: 0px;
+    font-size: 18px;
+    padding: 5px;
   }
 
   div.input-group.input-group-lg {
-    padding: 30px;
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px;
   }
 
   span.input-group-text {
@@ -26,6 +28,5 @@
 
   button.btn.btn-secondary {
     margin-right: 0.3rem;
-    margin-left: 2.5rem;
   }
 }
