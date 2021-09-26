@@ -1,3 +1,31 @@
 .App {
   text-align: center;
+  padding: 15px;
+}
+
+/* -------  Media Query ------- */
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+    padding: 0px;
+  }
+
+  h2 {
+    font-size: 20px;
+    padding: 0px;
+  }
+
+  div.input-group.input-group-lg {
+    padding: 30px;
+  }
+
+  span.input-group-text {
+    padding: 10px;
+  }
+
+  button.btn.btn-secondary {
+    margin-right: 0.3rem;
+    margin-left: 2.5rem;
+  }
 }
