@@ -38,7 +38,7 @@ function Pomodoro() {
   // The current session - null where there is no session running
   const [session, setSession] = useState(null);
 
-  // Allow the user to stop the current focus of break duration.
+  // Allow the user to stop the current focus or break duration.
   const stopFocusOrBreakSession = () => {
     if (isTimerRunning === true) {
       setIsTimerRunning(false);

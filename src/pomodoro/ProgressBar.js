@@ -2,7 +2,6 @@ import React from "react";
 
 export default function ProgressBar({ progressBarIncrease }) {
   return (
-    <>
       <div className="row mb-2">
         <div className="col">
           <div className="progress" style={{ height: "20px" }}>
@@ -17,6 +16,5 @@ export default function ProgressBar({ progressBarIncrease }) {
           </div>
         </div>
       </div>
-    </>
   );
 }
